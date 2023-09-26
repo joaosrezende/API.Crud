@@ -13,6 +13,9 @@ Utilize migrations para manter o banco de dados sincronizado com as mudanças de
 add-migrations "Initial" -verbose
 Esse comando garantirá que o banco de dados esteja alinhado com a estrutura de dados do projeto.
 
+Em sequência executar também:
+update-database -verbose
+
 ## Observações Finais
 O projeto Api.Crud foi desenvolvido em aproximadamente 5 horas, com um foco principal na criação de uma estrutura sólida baseada no modelo Clean Architecture e na implementação de alguns padrões de design preferenciais. Vale ressaltar que, em um ambiente de produção real, as validações e a qualidade do código seriam muito mais rigorosas.
 
